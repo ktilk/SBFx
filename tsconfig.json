@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "declaration": true,
+    "outDir": "./lib",
+    "strict": true,
+    "pretty": true,
+    "lib": [
+        "ES2015",
+        "dom",
+        "ES2017.Object"
+    ],
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
