@@ -33,9 +33,14 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 * npm
-  ```sh
+  ```
   npm install npm@latest -g
   ```
+* vsts-npm-auth
+  ```
+  npm install -g vsts-npm-auth --registry https://registry.npmjs.com --always-auth false
+  ```
+
 
 ### Installation
 
@@ -54,7 +59,9 @@ To get a local copy up and running follow these simple example steps.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
-TODO
+Publish package
+   ```
+   npm publish
+   ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
